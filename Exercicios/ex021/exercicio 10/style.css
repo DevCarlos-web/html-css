@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+*{
+    text-decoration: none;
+        
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-decoration:  none;
+    background-image: linear-gradient(to top, #1A5C38 30%, #39CD7B);
+    padding: 4px;
+    margin: 0px;
+    color: white;
+    
+    }
+    /* ID dos titulos */
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header > h1{
+    text-align: center;
+
+}
+header > h2{
+    text-align: center;
+    font-size: 1em;
+    
+
+    }
+
+nav > a:hover{
+        text-decoration: underline;
+        color: #84E1AD;
+    }
+
+nav{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav > a{
+    color: white;
+    font-weight: normal;
+    margin-right: 20px;
+    padding: 3px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    
+}
+
+  
+
+header > h1 h2{
+    text-align: left;
+    
+}
+
+body{
+    background-color: #84E1AD;
+
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    padding-top: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    
+}
+
+main > h1{
+    text-align: left;
+}
+h3{
+    background-color: #1A5C38;
+    color: white;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.c1{
+    text-indent: 30px;
+    
+}
+.robos{
+    text-align: center;
+    
+}
+.bug{
+    text-align: center;
+}
+
+.t2{
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    color: #2DA160;
+}
+.dados{
+    padding-top: 1px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    background-color: white
+    
+}
+
+.centro{
+    background-color: #C5EBD6;
+    margin-top: 1px;
+}
+.final{
+    margin: 0px;
+    padding-top: 10px;
+    text-indent: 30px;
+}
+#t1{
+    font-family: 'roboto', Arial, Helvetica, sans-serif; 
+    
+}
+
+
