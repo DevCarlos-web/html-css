@@ -83,7 +83,7 @@ section#img01{
 }
 section#img02{
     background-image: url(../imagens/background002.jpg);
-    ackground-position: right center;
+    background-position: right center;
     background-size: cover;
 }
 
