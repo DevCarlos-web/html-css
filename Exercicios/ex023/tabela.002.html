@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: turquoise;
+            margin-bottom: 30px;
+            padding: 50px;
+            font-size: 3em;
         }
         table{
             width: 500px;
             border-collapse: collapse;
             position: relative;
+            margin: auto;
+            margin-bottom: 50px;
+            margin-top: 50px;
         }
         td, th{
             border: 1px solid black;
@@ -19,6 +34,9 @@
         }
         td.num{
             text-align: right;
+        }
+        td.vlf {
+            text-align: center;
         }
         thead{
             background-color: gray;
@@ -46,9 +64,11 @@
             background-color: lightgray;
         }
         body > p{
-            text-align: justify;    
+            text-align: justify;
+            text-indent: 50px;
+            width: 750px; 
+            margin: auto; 
         }
-
     </style>
 </head>
     <body>
@@ -98,7 +118,7 @@
             <tfoot>
                 <tr>
                     <th>Total de Habitantes</th>
-                    <td>0000</td>
+                    <td class="vlf">136.282,876</td>
                 </tr>
 
             </tfoot>
@@ -108,7 +128,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati minus, eveniet saepe tempora quidem quaerat eum nostrum accusantium consequatur reiciendis architecto voluptatibus assumenda nisi. Deserunt veniam totam et reprehenderit?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolore corrupti voluptatum? Ducimus amet quae consequuntur minus accusantium nesciunt officiis dolore sunt. Temporibus sed enim aliquid reiciendis in animi facere.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam unde consequatur, explicabo ratione assumenda quae deserunt, a deleniti temporibus ipsa nesciunt aut! Consectetur incidunt, provident laudantium dignissimos aut impedit non!
-        </p>
+        </p><br>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aut similique officia iste eius. Suscipit officiis minima corrupti natus expedita ad! Tempora, neque qui quod totam molestias quisquam nemo cumque?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati minus, eveniet saepe tempora quidem quaerat eum nostrum accusantium consequatur reiciendis architecto voluptatibus assumenda nisi. Deserunt veniam totam et reprehenderit?
@@ -125,5 +145,5 @@
                 TR, TD, TH
             TFOOT
                 TR, TD, TH  
-        -->
+    -->
 </html>
