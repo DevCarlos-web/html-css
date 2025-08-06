@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio button</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <h1>Radio em HTML? </h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend class="titulo">Sexo</legend><!--Todo botão de radio tem o mesmo name(id tem que ser diferente)-->
+            <input type="radio" name="name" id="isxmas" value="Masculino"><label for="isxmas">Masculino</label><br>
+            <input type="radio" name="name" id="isxfem" value="Feminino"><label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend class="titulo">Esporte favorito</legend>
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquet</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
